@@ -35,7 +35,7 @@ const produtoMap = {
   "X3Tech Com Bloqueio Padrão": ["Chicote Elétrico Padrão"],
   "X3Tech Com Bloqueio Unidas": ["Chicote Elétrico Padrão"],
   "X3Tech Sem Bloqueio Padrão": ["Chicote Elétrico Padrão"],
-
+  "OBD | Teltonika FMC003": ["TELTONIKA FMC003"],
   // Dispositivos
   "GV50": ["QUECKLINK GV50"],
   "GV50CG": ["QUECKLINK GV50 4G"],
@@ -66,6 +66,7 @@ const produtoMap = {
   "Scotchlock": [], 
   "Scotchlock (conector fio)": [], 
   "Sem Acessórios": [] 
+
 };
 
 // Carregar JSON
