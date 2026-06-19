@@ -7,7 +7,7 @@ const zohoRoutes = require("./services/zoho");
 const notaRoutes = require('./routes/notas');
 const testNuvemFiscalRoutes = require("./routes/testeNuvemFiscal");
 
-const { CONFIG } = require('./services/nuvemfiscal'); // ✅ Importa CONFIG
+const { CONFIG } = require('./services/nuvemfiscal'); 
 
 const app = express();
 const PORT = process.env.PORT || 5000;

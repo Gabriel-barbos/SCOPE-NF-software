@@ -3,9 +3,9 @@ const router = express.Router();
 const axios = require("axios");
 
 // Credenciais Zoho
-const ZOHO_CLIENT_ID = "1000.Y90MMIV8G9CYW2LO1OFD6GWPUQODCE";
-const ZOHO_CLIENT_SECRET = "02953cc6a7860b7ff40e8e1cae92fc7da170975d36";
-const ZOHO_REFRESH_TOKEN = "1000.5e4682dd93d9df2f221d922d935081c1.dc860080a8423845ba0916cc324dcb2f";
+const ZOHO_CLIENT_ID = "1000.OEIOXELU32GR0BF33DEO3JGBFZACQS";
+const ZOHO_CLIENT_SECRET = "9baeacad1ef698ba901d7d3f3103dd61617981adaa";
+const ZOHO_REFRESH_TOKEN = "1000.8236d5c04c038a08a9949e6c44dd0d78.4822348cf8ad7b5190c9ef279ebf4f37";
 
 // Função para gerar token
 async function getZohoAccessToken() {
